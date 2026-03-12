@@ -42,7 +42,6 @@ input.onGesture(Gesture.Shake, function () {
         basic.showIcon(IconNames.Yes)
         score = score + 1
         basic.pause(100)
-        basic.showNumber(score)
         basic.pause(1000)
         basic.showIcon(IconNames.Happy)
     })
